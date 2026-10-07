@@ -1,0 +1,6 @@
+ultralytics==8.2.103
+# Ultralytics 8.2.103 predates the PyTorch 2.6 checkpoint-loader default change.
+# Use this range for the training/checkpoint CLI; formula tests also pass on 2.11.
+torch>=2.0,<2.6
+torchvision>=0.15,<0.21
+numpy

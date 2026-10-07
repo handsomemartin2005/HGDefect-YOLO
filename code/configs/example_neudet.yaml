@@ -1,0 +1,13 @@
+# Example dataset configuration with relative paths.
+# Replace these paths with the local dataset split used for reproduction.
+path: ../data
+train: images/train
+val: images/val
+
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
